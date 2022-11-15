@@ -1,0 +1,15 @@
+/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/bin/Debug/net6.0/NoonGilFBA
+/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/bin/Debug/net6.0/NoonGilFBA.deps.json
+/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/bin/Debug/net6.0/NoonGilFBA.runtimeconfig.json
+/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/bin/Debug/net6.0/NoonGilFBA.dll
+/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/bin/Debug/net6.0/NoonGilFBA.pdb
+/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/obj/Debug/net6.0/NoonGilFBA.csproj.AssemblyReference.cache
+/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/obj/Debug/net6.0/NoonGilFBA.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/obj/Debug/net6.0/NoonGilFBA.AssemblyInfoInputs.cache
+/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/obj/Debug/net6.0/NoonGilFBA.AssemblyInfo.cs
+/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/obj/Debug/net6.0/NoonGilFBA.csproj.CoreCompileInputs.cache
+/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/obj/Debug/net6.0/NoonGilFBA.dll
+/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/obj/Debug/net6.0/refint/NoonGilFBA.dll
+/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/obj/Debug/net6.0/NoonGilFBA.pdb
+/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/obj/Debug/net6.0/NoonGilFBA.genruntimeconfig.cache
+/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/obj/Debug/net6.0/ref/NoonGilFBA.dll

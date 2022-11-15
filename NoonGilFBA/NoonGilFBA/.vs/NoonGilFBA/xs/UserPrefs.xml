@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{3B7196FE-3B41-4884-8CBC-D664A0768E5F}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.NoonGilFBA PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NoonGilFBA/UserExpenses.cs">
+    <Files>
+      <File FileName="NoonGilFBA/Account.cs" Line="31" Column="33" />
+      <File FileName="NoonGilFBA/Program.cs" Line="29" Column="56" />
+      <File FileName="NoonGilFBA/UserIncome.cs" Line="48" Column="1" />
+      <File FileName="NoonGilFBA/PreAutoPayments.cs" Line="48" Column="1" />
+      <File FileName="NoonGilFBA/UserExpenses.cs" Line="62" Column="10" />
+      <File FileName="NoonGilFBA/SavingGoal.cs" Line="59" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NoonGilFBA" expanded="True">
+            <Node name="NoonGilFBA" expanded="True">
+              <Node name="UserExpenses.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
