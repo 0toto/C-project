@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/NoonGilFBA.csproj": {}
+    "C:\\Users\\jimmy\\OneDrive\\Desktop\\school\\semester 3\\2-C#\\C-project\\NoonGilFBA\\NoonGilFBA\\NoonGilFBA\\NoonGilFBA.csproj": {}
   },
   "projects": {
-    "/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/NoonGilFBA.csproj": {
+    "C:\\Users\\jimmy\\OneDrive\\Desktop\\school\\semester 3\\2-C#\\C-project\\NoonGilFBA\\NoonGilFBA\\NoonGilFBA\\NoonGilFBA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/NoonGilFBA.csproj",
+        "projectUniqueName": "C:\\Users\\jimmy\\OneDrive\\Desktop\\school\\semester 3\\2-C#\\C-project\\NoonGilFBA\\NoonGilFBA\\NoonGilFBA\\NoonGilFBA.csproj",
         "projectName": "NoonGilFBA",
-        "projectPath": "/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/NoonGilFBA.csproj",
-        "packagesPath": "/Users/xedrichabary/.nuget/packages/",
-        "outputPath": "/Users/xedrichabary/Projects/NoonGilFBA/NoonGilFBA/obj/",
+        "projectPath": "C:\\Users\\jimmy\\OneDrive\\Desktop\\school\\semester 3\\2-C#\\C-project\\NoonGilFBA\\NoonGilFBA\\NoonGilFBA\\NoonGilFBA.csproj",
+        "packagesPath": "C:\\Users\\jimmy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jimmy\\OneDrive\\Desktop\\school\\semester 3\\2-C#\\C-project\\NoonGilFBA\\NoonGilFBA\\NoonGilFBA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/xedrichabary/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\jimmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

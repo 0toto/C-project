@@ -10,3 +10,16 @@ C:\Users\xedrichabary\source\repos\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.ex
 C:\Users\xedrichabary\source\repos\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.pdb
 C:\Users\xedrichabary\source\repos\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.LogInForm.resources
 C:\Users\xedrichabary\source\repos\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.SignUpForm.resources
+C:\Users\jimmy\OneDrive\Desktop\school\semester 3\2-C#\C-project\NoonGilGUI\NoonGilGUI\bin\Debug\NoonGilGUI.exe.config
+C:\Users\jimmy\OneDrive\Desktop\school\semester 3\2-C#\C-project\NoonGilGUI\NoonGilGUI\bin\Debug\NoonGilGUI.exe
+C:\Users\jimmy\OneDrive\Desktop\school\semester 3\2-C#\C-project\NoonGilGUI\NoonGilGUI\bin\Debug\NoonGilGUI.pdb
+C:\Users\jimmy\OneDrive\Desktop\school\semester 3\2-C#\C-project\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.csproj.AssemblyReference.cache
+C:\Users\jimmy\OneDrive\Desktop\school\semester 3\2-C#\C-project\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\jimmy\OneDrive\Desktop\school\semester 3\2-C#\C-project\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.LogInForm.resources
+C:\Users\jimmy\OneDrive\Desktop\school\semester 3\2-C#\C-project\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.incomeStatus.resources
+C:\Users\jimmy\OneDrive\Desktop\school\semester 3\2-C#\C-project\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.Properties.Resources.resources
+C:\Users\jimmy\OneDrive\Desktop\school\semester 3\2-C#\C-project\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.SignUpForm.resources
+C:\Users\jimmy\OneDrive\Desktop\school\semester 3\2-C#\C-project\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.csproj.GenerateResource.cache
+C:\Users\jimmy\OneDrive\Desktop\school\semester 3\2-C#\C-project\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.csproj.CoreCompileInputs.cache
+C:\Users\jimmy\OneDrive\Desktop\school\semester 3\2-C#\C-project\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.exe
+C:\Users\jimmy\OneDrive\Desktop\school\semester 3\2-C#\C-project\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.pdb
