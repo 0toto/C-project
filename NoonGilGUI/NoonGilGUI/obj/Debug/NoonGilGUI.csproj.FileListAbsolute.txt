@@ -1,0 +1,12 @@
+C:\Users\xedrichabary\source\repos\NoonGilGUI\NoonGilGUI\bin\Debug\NoonGilGUI.exe.config
+C:\Users\xedrichabary\source\repos\NoonGilGUI\NoonGilGUI\bin\Debug\NoonGilGUI.exe
+C:\Users\xedrichabary\source\repos\NoonGilGUI\NoonGilGUI\bin\Debug\NoonGilGUI.pdb
+C:\Users\xedrichabary\source\repos\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.csproj.AssemblyReference.cache
+C:\Users\xedrichabary\source\repos\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\xedrichabary\source\repos\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.Properties.Resources.resources
+C:\Users\xedrichabary\source\repos\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.csproj.GenerateResource.cache
+C:\Users\xedrichabary\source\repos\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.csproj.CoreCompileInputs.cache
+C:\Users\xedrichabary\source\repos\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.exe
+C:\Users\xedrichabary\source\repos\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.pdb
+C:\Users\xedrichabary\source\repos\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.LogInForm.resources
+C:\Users\xedrichabary\source\repos\NoonGilGUI\NoonGilGUI\obj\Debug\NoonGilGUI.SignUpForm.resources
