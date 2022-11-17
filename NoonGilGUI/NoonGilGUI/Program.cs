@@ -16,7 +16,7 @@ namespace NoonGilGUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LogInForm());
+            Application.Run(new incomeStatus());
             //Application.Run(new SignUpForm());
         }
     }

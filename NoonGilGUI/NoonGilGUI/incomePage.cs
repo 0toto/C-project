@@ -12,6 +12,7 @@ namespace NoonGilGUI
 {
     public partial class incomeStatus : Form
     {
+ 
         public incomeStatus()
         {
             InitializeComponent();
@@ -23,6 +24,16 @@ namespace NoonGilGUI
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void incomeStatus_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void graphButton_Click(object sender, EventArgs e)
         {
 
         }
