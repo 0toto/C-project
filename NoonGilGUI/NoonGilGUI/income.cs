@@ -55,6 +55,7 @@ namespace NoonGilGUI
             get { return other; }
             set { other = value; }
         }
-
+        
+        
     }
 }

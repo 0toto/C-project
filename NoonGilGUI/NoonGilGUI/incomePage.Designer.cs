@@ -34,12 +34,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.housingInput = new System.Windows.Forms.TextBox();
+            this.eduInput = new System.Windows.Forms.TextBox();
+            this.tranInput = new System.Windows.Forms.TextBox();
+            this.foodInput = new System.Windows.Forms.TextBox();
+            this.preInput = new System.Windows.Forms.TextBox();
+            this.otherInput = new System.Windows.Forms.TextBox();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.graphButton = new System.Windows.Forms.Button();
@@ -108,47 +108,47 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "others";
             // 
-            // textBox1
+            // housingInput
             // 
-            this.textBox1.Location = new System.Drawing.Point(251, 36);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 6;
+            this.housingInput.Location = new System.Drawing.Point(251, 36);
+            this.housingInput.Name = "housingInput";
+            this.housingInput.Size = new System.Drawing.Size(100, 20);
+            this.housingInput.TabIndex = 6;
             // 
-            // textBox2
+            // eduInput
             // 
-            this.textBox2.Location = new System.Drawing.Point(251, 124);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 7;
+            this.eduInput.Location = new System.Drawing.Point(251, 124);
+            this.eduInput.Name = "eduInput";
+            this.eduInput.Size = new System.Drawing.Size(100, 20);
+            this.eduInput.TabIndex = 7;
             // 
-            // textBox3
+            // tranInput
             // 
-            this.textBox3.Location = new System.Drawing.Point(251, 81);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 8;
+            this.tranInput.Location = new System.Drawing.Point(251, 81);
+            this.tranInput.Name = "tranInput";
+            this.tranInput.Size = new System.Drawing.Size(100, 20);
+            this.tranInput.TabIndex = 8;
             // 
-            // textBox4
+            // foodInput
             // 
-            this.textBox4.Location = new System.Drawing.Point(251, 168);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 9;
+            this.foodInput.Location = new System.Drawing.Point(251, 168);
+            this.foodInput.Name = "foodInput";
+            this.foodInput.Size = new System.Drawing.Size(100, 20);
+            this.foodInput.TabIndex = 9;
             // 
-            // textBox5
+            // preInput
             // 
-            this.textBox5.Location = new System.Drawing.Point(251, 207);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 10;
+            this.preInput.Location = new System.Drawing.Point(251, 207);
+            this.preInput.Name = "preInput";
+            this.preInput.Size = new System.Drawing.Size(100, 20);
+            this.preInput.TabIndex = 10;
             // 
-            // textBox7
+            // otherInput
             // 
-            this.textBox7.Location = new System.Drawing.Point(251, 247);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 12;
+            this.otherInput.Location = new System.Drawing.Point(251, 247);
+            this.otherInput.Name = "otherInput";
+            this.otherInput.Size = new System.Drawing.Size(100, 20);
+            this.otherInput.TabIndex = 12;
             // 
             // checkedListBox1
             // 
@@ -170,16 +170,16 @@
             this.panel1.Controls.Add(this.graphButton);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.textBox7);
+            this.panel1.Controls.Add(this.otherInput);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.textBox5);
+            this.panel1.Controls.Add(this.preInput);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.foodInput);
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.tranInput);
             this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.eduInput);
+            this.panel1.Controls.Add(this.housingInput);
             this.panel1.Location = new System.Drawing.Point(10, 280);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(400, 320);
@@ -219,12 +219,12 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox housingInput;
+        private System.Windows.Forms.TextBox eduInput;
+        private System.Windows.Forms.TextBox tranInput;
+        private System.Windows.Forms.TextBox foodInput;
+        private System.Windows.Forms.TextBox preInput;
+        private System.Windows.Forms.TextBox otherInput;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button graphButton;
