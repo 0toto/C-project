@@ -40,9 +40,12 @@
             this.foodInput = new System.Windows.Forms.TextBox();
             this.preInput = new System.Windows.Forms.TextBox();
             this.otherInput = new System.Windows.Forms.TextBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.graphButton = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -150,20 +153,6 @@
             this.otherInput.Size = new System.Drawing.Size(100, 20);
             this.otherInput.TabIndex = 12;
             // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
-            "anually",
-            "monthly",
-            "bi-weekly",
-            "weekly",
-            "hourly"});
-            this.checkedListBox1.Location = new System.Drawing.Point(254, 73);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(130, 19);
-            this.checkedListBox1.TabIndex = 13;
-            // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -195,19 +184,46 @@
             this.graphButton.UseVisualStyleBackColor = true;
             this.graphButton.Click += new System.EventHandler(this.graphButton_Click);
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "annualy",
+            "monthly",
+            "bi-weekly",
+            "weekly",
+            "hourly"});
+            this.comboBox1.Location = new System.Drawing.Point(12, 118);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(400, 21);
+            this.comboBox1.TabIndex = 15;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Arial Narrow", 18.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(12, 50);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(394, 30);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "Please select the way you are getting pay :";
+            // 
             // incomeStatus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1084, 611);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.checkedListBox1);
             this.Name = "incomeStatus";
             this.Text = "income page";
             this.Load += new System.EventHandler(this.incomeStatus_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -225,8 +241,11 @@
         private System.Windows.Forms.TextBox foodInput;
         private System.Windows.Forms.TextBox preInput;
         private System.Windows.Forms.TextBox otherInput;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button graphButton;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label7;
     }
 }

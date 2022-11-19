@@ -65,10 +65,10 @@ namespace NoonGilGUI
                 using (Graphics myGraphics = base.CreateGraphics())
 
                 using (SolidBrush mySolidBrush = new SolidBrush(Color.DarkBlue))
-                using (SolidBrush mySolidBrush2 = new SolidBrush(Color.DarkCyan))
                 {
                     myGraphics.FillEllipse(mySolidBrush, 650, 225, 200, 200);
-                    myGraphics.FillPie(mySolidBrush2, 650, 225, 200, 200, (float)totalAngle, (float)angle);
+
+                    myGraphics.FillPie(mySolidBrush, 650, 225, 200, 200, (float)totalAngle, (float)angle);
 
                     mySolidBrush.Color = Color.Chocolate;
                     totalAngle += angle;
@@ -101,6 +101,11 @@ namespace NoonGilGUI
                 DialogResult result = MessageBox.Show("try again, one or more werent corectly input", "Warning",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
