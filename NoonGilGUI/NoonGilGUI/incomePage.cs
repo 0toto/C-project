@@ -58,39 +58,45 @@ namespace NoonGilGUI
 
                 double total = Total(housing, food, transportation, education, prepay, other);
 
-                double angle = Angle(total, housing);
 
                 double totalAngle = 0;
 
                 using (Graphics myGraphics = base.CreateGraphics())
 
-                using (SolidBrush mySolidBrush = new SolidBrush(Color.DarkBlue))
+                using (SolidBrush mySolidBrush = new SolidBrush(Color.White))
                 {
                     myGraphics.FillEllipse(mySolidBrush, 650, 225, 200, 200);
 
+                    //draw angle for housing
+                    double angle = Angle(total, housing);
                     myGraphics.FillPie(mySolidBrush, 650, 225, 200, 200, (float)totalAngle, (float)angle);
 
+                    //draw angle for transportation
                     mySolidBrush.Color = Color.Chocolate;
-                    totalAngle += angle;
-                    angle = Angle(total, food);
-                    myGraphics.FillPie(mySolidBrush, 650, 225, 200, 200, (float)totalAngle, (float)angle);
-
-                    mySolidBrush.Color = Color.Cyan;
                     totalAngle += angle;
                     angle = Angle(total, transportation);
                     myGraphics.FillPie(mySolidBrush, 650, 225, 200, 200, (float)totalAngle, (float)angle);
 
-                    mySolidBrush.Color = Color.Yellow;
+                    //draw angle for education
+                    mySolidBrush.Color = Color.MediumAquamarine;
                     totalAngle += angle;
                     angle = Angle(total, education);
                     myGraphics.FillPie(mySolidBrush, 650, 225, 200, 200, (float)totalAngle, (float)angle);
 
-                    mySolidBrush.Color = Color.DarkGreen;
+                    //draw angle for food
+                    mySolidBrush.Color = Color.Yellow;
+                    totalAngle += angle;
+                    angle = Angle(total, food);
+                    myGraphics.FillPie(mySolidBrush, 650, 225, 200, 200, (float)totalAngle, (float)angle);
+
+                    //draw angle for prepay
+                    mySolidBrush.Color = Color.Wheat;
                     totalAngle += angle;
                     angle = Angle(total, prepay);
                     myGraphics.FillPie(mySolidBrush, 650, 225, 200, 200, (float)totalAngle, (float)angle);
 
-                    mySolidBrush.Color = Color.Lime;
+                    //draw angle for other
+                    mySolidBrush.Color = Color.PeachPuff;
                     totalAngle += angle;
                     angle = Angle(total, other);
                     myGraphics.FillPie(mySolidBrush, 650, 225, 200, 200, (float)totalAngle, (float)angle);
@@ -104,6 +110,16 @@ namespace NoonGilGUI
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
