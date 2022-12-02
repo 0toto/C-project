@@ -60,6 +60,7 @@ namespace NoonGilGUI
 
 
                 double totalAngle = 0;
+                double[] angleArray = new double[5];
 
                 using (Graphics myGraphics = base.CreateGraphics())
 
@@ -69,35 +70,41 @@ namespace NoonGilGUI
 
                     //draw angle for housing
                     double angle = Angle(total, housing);
+                    angleArray[0] = 0; 
                     myGraphics.FillPie(mySolidBrush, 650, 225, 200, 200, (float)totalAngle, (float)angle);
 
                     //draw angle for transportation
-                    mySolidBrush.Color = Color.Chocolate;
+                    mySolidBrush.Color = Color.AliceBlue;
                     totalAngle += angle;
+                    angleArray[1] = totalAngle;
                     angle = Angle(total, transportation);
                     myGraphics.FillPie(mySolidBrush, 650, 225, 200, 200, (float)totalAngle, (float)angle);
 
                     //draw angle for education
-                    mySolidBrush.Color = Color.MediumAquamarine;
+                    mySolidBrush.Color = Color.LightSkyBlue;
                     totalAngle += angle;
+                    angleArray[2] = totalAngle;
                     angle = Angle(total, education);
                     myGraphics.FillPie(mySolidBrush, 650, 225, 200, 200, (float)totalAngle, (float)angle);
 
                     //draw angle for food
-                    mySolidBrush.Color = Color.Yellow;
+                    mySolidBrush.Color = Color.CornflowerBlue;
                     totalAngle += angle;
+                    angleArray[3] = totalAngle;
                     angle = Angle(total, food);
                     myGraphics.FillPie(mySolidBrush, 650, 225, 200, 200, (float)totalAngle, (float)angle);
 
                     //draw angle for prepay
-                    mySolidBrush.Color = Color.Wheat;
+                    mySolidBrush.Color = Color.MediumTurquoise;
                     totalAngle += angle;
+                    angleArray[4] = totalAngle;
                     angle = Angle(total, prepay);
                     myGraphics.FillPie(mySolidBrush, 650, 225, 200, 200, (float)totalAngle, (float)angle);
 
                     //draw angle for other
-                    mySolidBrush.Color = Color.PeachPuff;
+                    mySolidBrush.Color = Color.Turquoise;
                     totalAngle += angle;
+                    angleArray[5] = totalAngle;
                     angle = Angle(total, other);
                     myGraphics.FillPie(mySolidBrush, 650, 225, 200, 200, (float)totalAngle, (float)angle);
 
@@ -108,18 +115,59 @@ namespace NoonGilGUI
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void anuallyPay()
         {
+//annualy
+//monthly
+//bi - weekly
+//weekly
+//hourly
+            double beforeTax = double.Parse(numPay.Text);
+
+
+            if(PayMethod.SelectedItem == "monthly")
+            {
+                beforeTax *= 12;
+            }
+            else if (PayMethod.SelectedItem == "bi-weekly")
+            {
+                beforeTax *= 26;
+            }
+            else if (PayMethod.SelectedItem == "weekly")
+            {
+                beforeTax *= 52;
+            }
+            else if (PayMethod.SelectedItem == "hourly")
+            {
+                beforeTax *= 40 * 52;
+            }
+
+
+            double afterTax = beforeTax * .85;
+
+            incomeLabel.Text = "your income after tax(15%) is : " + afterTax;
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void numPay_TextChanged(object sender, EventArgs e)
         {
+        }
+
+        private void numPay_KeyPress(object sender, KeyPressEventArgs e)
+        {
+         
 
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
+        private void numPay_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                anuallyPay();
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }

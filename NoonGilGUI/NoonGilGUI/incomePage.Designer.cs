@@ -35,8 +35,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.housingInput = new System.Windows.Forms.TextBox();
-            this.eduInput = new System.Windows.Forms.TextBox();
             this.tranInput = new System.Windows.Forms.TextBox();
+            this.eduInput = new System.Windows.Forms.TextBox();
             this.foodInput = new System.Windows.Forms.TextBox();
             this.preInput = new System.Windows.Forms.TextBox();
             this.otherInput = new System.Windows.Forms.TextBox();
@@ -44,13 +44,20 @@
             this.graphButton = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.PayMethod = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.incomeLabel = new System.Windows.Forms.Label();
+            this.numPay = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -126,19 +133,19 @@
             this.housingInput.Size = new System.Drawing.Size(100, 20);
             this.housingInput.TabIndex = 6;
             // 
-            // eduInput
-            // 
-            this.eduInput.Location = new System.Drawing.Point(251, 124);
-            this.eduInput.Name = "eduInput";
-            this.eduInput.Size = new System.Drawing.Size(100, 20);
-            this.eduInput.TabIndex = 7;
-            // 
             // tranInput
             // 
             this.tranInput.Location = new System.Drawing.Point(251, 81);
             this.tranInput.Name = "tranInput";
             this.tranInput.Size = new System.Drawing.Size(100, 20);
-            this.tranInput.TabIndex = 8;
+            this.tranInput.TabIndex = 7;
+            // 
+            // eduInput
+            // 
+            this.eduInput.Location = new System.Drawing.Point(251, 124);
+            this.eduInput.Name = "eduInput";
+            this.eduInput.Size = new System.Drawing.Size(100, 20);
+            this.eduInput.TabIndex = 8;
             // 
             // foodInput
             // 
@@ -174,9 +181,9 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.foodInput);
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.tranInput);
-            this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.eduInput);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.tranInput);
             this.panel1.Controls.Add(this.housingInput);
             this.panel1.Location = new System.Drawing.Point(10, 280);
             this.panel1.Name = "panel1";
@@ -193,20 +200,19 @@
             this.graphButton.UseVisualStyleBackColor = true;
             this.graphButton.Click += new System.EventHandler(this.graphButton_Click);
             // 
-            // comboBox1
+            // PayMethod
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.PayMethod.FormattingEnabled = true;
+            this.PayMethod.Items.AddRange(new object[] {
             "annualy",
             "monthly",
             "bi-weekly",
             "weekly",
             "hourly"});
-            this.comboBox1.Location = new System.Drawing.Point(13, 75);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(348, 21);
-            this.comboBox1.TabIndex = 15;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.PayMethod.Location = new System.Drawing.Point(13, 75);
+            this.PayMethod.Name = "PayMethod";
+            this.PayMethod.Size = new System.Drawing.Size(348, 21);
+            this.PayMethod.TabIndex = 15;
             // 
             // label7
             // 
@@ -222,12 +228,16 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.button4);
+            this.panel2.Controls.Add(this.button5);
+            this.panel2.Controls.Add(this.button6);
+            this.panel2.Controls.Add(this.button3);
+            this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Location = new System.Drawing.Point(451, 444);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(609, 155);
             this.panel2.TabIndex = 17;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // button1
             // 
@@ -235,16 +245,16 @@
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(27, 35);
+            this.button1.Location = new System.Drawing.Point(21, 22);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(253, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "housing , pourcentage : %%";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Gray;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.logOutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -262,12 +272,99 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Controls.Add(this.incomeLabel);
+            this.panel3.Controls.Add(this.numPay);
             this.panel3.Controls.Add(this.label7);
-            this.panel3.Controls.Add(this.comboBox1);
+            this.panel3.Controls.Add(this.PayMethod);
             this.panel3.Location = new System.Drawing.Point(14, 42);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(396, 220);
             this.panel3.TabIndex = 1;
+            // 
+            // incomeLabel
+            // 
+            this.incomeLabel.AutoSize = true;
+            this.incomeLabel.Location = new System.Drawing.Point(10, 163);
+            this.incomeLabel.Name = "incomeLabel";
+            this.incomeLabel.Size = new System.Drawing.Size(147, 13);
+            this.incomeLabel.TabIndex = 18;
+            this.incomeLabel.Text = "your income after tax(15%) is :";
+            // 
+            // numPay
+            // 
+            this.numPay.Location = new System.Drawing.Point(13, 123);
+            this.numPay.Name = "numPay";
+            this.numPay.Size = new System.Drawing.Size(348, 20);
+            this.numPay.TabIndex = 17;
+            this.numPay.TextChanged += new System.EventHandler(this.numPay_TextChanged);
+            this.numPay.KeyDown += new System.Windows.Forms.KeyEventHandler(this.numPay_KeyDown);
+            this.numPay.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numPay_KeyPress);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(21, 63);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(253, 23);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "housing , pourcentage : %%";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(21, 104);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(253, 23);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "housing , pourcentage : %%";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.White;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Location = new System.Drawing.Point(320, 104);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(253, 23);
+            this.button4.TabIndex = 5;
+            this.button4.Text = "housing , pourcentage : %%";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.White;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Location = new System.Drawing.Point(320, 63);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(253, 23);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "housing , pourcentage : %%";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.White;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Location = new System.Drawing.Point(320, 22);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(253, 23);
+            this.button6.TabIndex = 3;
+            this.button6.Text = "housing , pourcentage : %%";
+            this.button6.UseVisualStyleBackColor = false;
             // 
             // incomeStatus
             // 
@@ -304,8 +401,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox housingInput;
-        private System.Windows.Forms.TextBox eduInput;
         private System.Windows.Forms.TextBox tranInput;
+        private System.Windows.Forms.TextBox eduInput;
         private System.Windows.Forms.TextBox foodInput;
         private System.Windows.Forms.TextBox preInput;
         private System.Windows.Forms.TextBox otherInput;
@@ -313,12 +410,19 @@
         private System.Windows.Forms.Button graphButton;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox PayMethod;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem logOutToolStripMenuItem;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label incomeLabel;
+        private System.Windows.Forms.TextBox numPay;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
